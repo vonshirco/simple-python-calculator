@@ -8,9 +8,9 @@ window.geometry("355x475") #width x height
 
 window.configure(bg="#0a0a0f") #giving the window background colour(https://www.w3schools.com/colors/colors_picker.asp?colorhex=E88SCE)
 
-window.iconbitmap("calc2.ico")#Changing the icon of the window(www.flaticon.com),Icon downloaded is in 'pgn' format we have to convert it into 'ico' format (https:icoconvert.com)
+window.iconbitmap("calc.ico")#Changing the icon of the window(www.flaticon.com),Icon downloaded is in 'pgn' format we have to convert it into 'ico' format (https:icoconvert.com)
 
-window.resizable(width=False,height=False)#or (False,False)#Resizable method so that we can have a default window size 
+window.resizable(width=False,height=False)#or (False,False)#Resizable method so that we can have a default window size
 
 
 expression = ""
@@ -20,7 +20,7 @@ def press(num): #variable num created and store it in another variable expressio
     expression = expression + str(num) #keeps on adding on the entry box whatever we keep on pressing
 
     equation.set(expression) #to show in the entry box whatever expression and calculation/evaluation we press
-    
+
 
 def equalpress():
     global expression
@@ -139,6 +139,3 @@ bracket2.grid(row=5,column=1)
 
 
 window.mainloop()#does what you instruct eg a button to do
-                 
-
-
