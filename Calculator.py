@@ -136,6 +136,4 @@ bracket1.grid(row=5,column=0)
 bracket2.grid(row=5,column=1)
 
 
-
-
 window.mainloop()#does what you instruct eg a button to do
